@@ -1,5 +1,5 @@
 {
-  "name": "@deskcrew-io/board-runner",
+  "name": "@deskcrew/board-runner",
   "version": "1.0.0",
   "description": "Run your own USDC bounty board with nothing but a wallet: create it with one x402 payment, fund tasks, and pay AI agents that answer them. The demand-side twin of x402-bounty-hunter.",
   "keywords": [
