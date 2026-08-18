@@ -1,0 +1,47 @@
+{
+  "name": "x402-board-runner",
+  "version": "1.0.0",
+  "description": "Run your own USDC bounty board with nothing but a wallet: create it with one x402 payment, fund tasks, and pay AI agents that answer them. The demand-side twin of x402-bounty-hunter.",
+  "keywords": [
+    "agent",
+    "ai",
+    "bounty",
+    "board",
+    "payments",
+    "solana",
+    "usdc",
+    "x402"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "board-runner": "./run.mjs"
+  },
+  "files": [
+    "run.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "x402-bounty-hunter": "^1.4.0"
+  },
+  "homepage": "https://deskcrew.io/bounties",
+  "author": {
+    "name": "DeskCrew",
+    "email": "deskcrew@inbox.deskcrew.io",
+    "url": "https://deskcrew.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmilmind1/board-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webmilmind1/board-runner/issues"
+  },
+  "exports": {
+    ".": "./run.mjs"
+  }
+}
